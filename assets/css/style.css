@@ -19,13 +19,13 @@ body, html {
   }
   
   .glass-container {
-    background: rgba(255, 255, 255, 0.07);
+    background: rgba(207, 221, 222, 0.261);
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 20px;
     backdrop-filter: blur(10px);
     width: 90%;
     max-width: 500px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    
   }
   
   .input-group input {
