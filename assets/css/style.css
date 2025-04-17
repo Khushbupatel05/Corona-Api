@@ -1,0 +1,71 @@
+*{
+    text-decoration: none ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input:focus{        
+    box-shadow: none !important;
+    border: 1px solid black !important;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(135deg, #37445e, #79a3eb, #10141b);
+  }
+  
+  .main-wrapper {
+    height: 100vh;
+  }
+  
+  .glass-container {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  }
+  
+  .input-group input {
+    padding: 12px;
+  }
+  
+  .stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 400px;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  }
+  
+  .stat-card i {
+    font-size: 24px;
+  }
+  
+  .stat-info {
+    text-align: left;
+  }
+  
+  .stat-title {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .stat-value {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .confirmed { border-left: 5px solid #00bcd4; }
+  .discharged { border-left: 5px solid #4caf50; }
+  .deaths { border-left: 5px solid #f44336; }
+  
